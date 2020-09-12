@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">keyPulsa</string>
+    <string name="Settings">settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pin_anda_sebelumnya">PIN ANDA SEBELUMNYA</string>
+    <string name="update_pin">UPDATE PIN</string>
+    <string name="edit_pin_anda_di_sini">EDIT PIN ANDA DI SINI</string>
+</resources>

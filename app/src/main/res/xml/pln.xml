@@ -1,0 +1,25 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="40%p"
+    android:horizontalGap="7px"
+    android:verticalGap="7px"
+    android:keyHeight="220dp"
+    >
+    <Row>
+        <Key android:keyOutputText="PLN20." android:keyLabel="PLN20"/>
+        <Key android:keyOutputText="PLN50." android:keyLabel="PLN50"/>
+        <Key android:keyLabel="BACK" android:codes="4" android:keyWidth="40%p"/>
+
+    </Row>
+
+    <Row>
+        <Key android:keyOutputText="PLN100." android:keyLabel="PLN100"/>
+        <Key android:keyOutputText="PLN200." android:keyLabel="PLN200"/>
+        <Key android:codes="1"
+            android:keyLabel="ENTER"
+            android:keyEdgeFlags="right"
+            android:keyWidth="40%p"
+            />
+    </Row>
+
+
+</Keyboard>

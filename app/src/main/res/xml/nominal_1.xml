@@ -1,0 +1,36 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="7px"
+    android:verticalGap="7px"
+    android:keyHeight="170dp"
+    >
+
+<Row>
+    <Key android:keyOutputText="5." android:keyLabel=" 5"/>
+    <Key android:keyOutputText="10." android:keyLabel="10"/>
+    <Key android:keyOutputText="20." android:keyLabel="20"/>
+    <Key android:keyLabel="BACK" android:codes="4" android:keyWidth="40%p"/>
+</Row>
+
+<Row>
+    <Key android:keyOutputText="25." android:keyLabel="25"/>
+    <Key android:keyOutputText="50." android:keyLabel="50"/>
+    <Key android:keyOutputText="100." android:keyLabel="100"/>
+    <Key android:codes="1"
+        android:keyLabel="ENTER"
+        android:keyWidth="40%p"
+        />
+</Row>
+
+
+<Row>
+    <Key
+        android:keyOutputText=""
+        android:keyLabel=" "
+         android:keyWidth="61%p"/>
+    <Key android:codes="2"
+        android:keyLabel="ENTER(.2)"
+        android:keyWidth="40%p"
+        />
+</Row>
+</Keyboard>
